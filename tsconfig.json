@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "lib": ["es6", "dom", "es2017"],
+    "target": "es5",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "~components/*": ["./src/client/components/*"],
+      "~lib/*": ["./src/client/shared/lib/*"],
+      "~helpers/*": ["./src/client/shared/helpers/*"],
+      "~services/*": ["./src/client/shared/services/*"],
+      "~assets/*": ["./src/client/shared/assets/*"],
+      "~containers/*": ["./src/client/containers/*"],
+      "~pages/*": ["./src/client/pages/*"],
+      "~i18n/*": ["./src/client/i18n/*"],
+      "~store/*": ["./src/client/store/*"],
+      "~layouts/*": ["./src/client/layouts/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
