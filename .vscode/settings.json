@@ -1,0 +1,33 @@
+{
+  "CSSNavigation.alsoSearchDefinitionsInStyleTag": true,
+  "CSSNavigation.preloadCSSFiles": true,
+  "CSSNavigation.activeCSSFileExtensions": ["scss"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.eslintIntegration": true,
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "prettier.tslintIntegration": true,
+  "editor.renderWhitespace": "boundary"
+}
