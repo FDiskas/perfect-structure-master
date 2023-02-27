@@ -61,7 +61,7 @@
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-typed-css-modules": "^1.1.0",
     "postcss-loader": "^3.0.0",
-    "postcss-modules": "^1.4.1",
+    "postcss-modules": "^1.5.0",
     "prettier": "^1.17.0",
     "react-docgen-typescript": "^1.12.4",
     "react-hot-loader": "^4.8.4",
